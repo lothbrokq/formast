@@ -1,0 +1,24 @@
+[project]
+name = "formast"
+version = "0.1.0"
+description = "A AST formatting tool"
+authors = [
+    {name = "Christian Gram Kalhauge", email = "chrg@dtu.dk"},
+]
+dependencies = [
+    "click>=8.1.3",
+    "tree-sitter>=0.20.1",
+]
+requires-python = ">=3.10"
+readme = "README.md"
+license = {text = "MIT"}
+
+[project.scripts]
+formast = "formast.__main__:formast"
+
+[build-system]
+requires = ["pdm-pep517>=1.0"]
+build-backend = "pdm.pep517.api"
+
+[tool.pdm]
+
