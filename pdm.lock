@@ -17,6 +17,12 @@ requires_python = "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,!=3.5.*,!=3.6.*,>=2.7
 summary = "Cross-platform colored terminal text."
 
 [[package]]
+name = "git-filter-repo"
+version = "2.38.0"
+requires_python = ">=3.5"
+summary = "Quickly rewrite git repository history"
+
+[[package]]
 name = "gitdb"
 version = "4.0.10"
 requires_python = ">=3.7"
@@ -57,7 +63,7 @@ summary = "Python bindings to the Tree-sitter parsing library"
 
 [metadata]
 lock_version = "4.1"
-content_hash = "sha256:b560d788287a88ad0379594b26f5140b581224bfcb15d79daaf4b0d72d7ca099"
+content_hash = "sha256:289ca83dcb9cffb1bc92d763f9ecffc47682f7e592528e566a0637ec9ae1691d"
 
 [metadata.files]
 "click 8.1.3" = [
@@ -67,6 +73,10 @@ content_hash = "sha256:b560d788287a88ad0379594b26f5140b581224bfcb15d79daaf4b0d72
 "colorama 0.4.6" = [
     {url = "https://files.pythonhosted.org/packages/d1/d6/3965ed04c63042e047cb6a3e6ed1a63a35087b6a609aa3a15ed8ac56c221/colorama-0.4.6-py2.py3-none-any.whl", hash = "sha256:4f1d9991f5acc0ca119f9d443620b77f9d6b33703e51011c16baf57afb285fc6"},
     {url = "https://files.pythonhosted.org/packages/d8/53/6f443c9a4a8358a93a6792e2acffb9d9d5cb0a5cfd8802644b7b1c9a02e4/colorama-0.4.6.tar.gz", hash = "sha256:08695f5cb7ed6e0531a20572697297273c47b8cae5a63ffc6d6ed5c201be6e44"},
+]
+"git-filter-repo 2.38.0" = [
+    {url = "https://files.pythonhosted.org/packages/70/99/37da3374977fb5e0915064718e58715666a395a614c42532a89d6164d958/git-filter-repo-2.38.0.tar.gz", hash = "sha256:fe1753e18f0bd6d3c9b57868c8011ae7d056a6ebab706706396a15ef5312725e"},
+    {url = "https://files.pythonhosted.org/packages/8d/0b/49d4d620327b717fdc072b2efdfcb3588eb3cf780e60ed5ba98ebedb5637/git_filter_repo-2.38.0-py2.py3-none-any.whl", hash = "sha256:c2646206dfdbf06ce27c06c5b77ea33209d8e32d1e33f6bd4c25b1ccc59f9864"},
 ]
 "gitdb 4.0.10" = [
     {url = "https://files.pythonhosted.org/packages/21/a6/35f83efec687615c711fe0a09b67e58f6d1254db27b1013119de46f450bd/gitdb-4.0.10-py3-none-any.whl", hash = "sha256:c286cf298426064079ed96a9e4a9d39e7f3e9bf15ba60701e95f5492f28415c7"},
