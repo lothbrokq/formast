@@ -11,6 +11,9 @@ dependencies = [
     "GitPython>=3.1.31",
     "tqdm>=4.65.0",
     "git-filter-repo>=2.38.0",
+    "jupyter>=1.0.0",
+    "pandas>=1.5.3",
+    "regit @ git+https://lab.compute.dtu.dk/sse/regit.git@main",
 ]
 requires-python = ">=3.10"
 readme = "README.md"
@@ -24,4 +27,8 @@ requires = ["pdm-pep517>=1.0"]
 build-backend = "pdm.pep517.api"
 
 [tool.pdm]
-
+[tool.pdm.build]
+excludes = ["./**/.git"]
+package-dir = "src"
+includes = ["src/formast"]
+source-includes = ["LICENSE", "README.md"]
