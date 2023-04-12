@@ -6,8 +6,9 @@ from tqdm import tqdm
 
 @click.command()
 @click.argument("repo")
-@click.argument("output")    
-def main(repo, output):
+@click.argument("output") 
+@click.option("-w","--ignore-all-space", is_flag=True, help="Ignore whitespace when comparing the parent commit and the current commit")   
+def main(repo, output, ignore_all_space):
     # Open the output CSV file for writing
     with open(output, "w") as f:
         repo = git.Repo(repo)
@@ -21,7 +22,7 @@ def main(repo, output):
             if len(parrent := commit.parents) != 1:
                 continue
 
-            diff = repo.git.diff(parrent, commit, numstat=True)
+            diff = repo.git.diff(parrent, commit, numstat=True, ignore_all_space=ignore_all_space)
             for line in diff.splitlines():
                 num_additions, num_deletions, filename = line.split("\t")
                 writer.writerow([commit.hexsha, num_additions, num_deletions, filename])

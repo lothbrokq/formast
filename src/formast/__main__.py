@@ -17,7 +17,8 @@ log = logging.getLogger(__name__)
 #         '../../vendor/tree-sitter-java'
 #     ]
 # )
-
+language_file = Path(__file__).absolute().parent.parent.parent / 'build' / 'my-languages.so'
+JAVA_LANGUAGE = Language(str(language_file), 'java')
 
 @click.command()
 @click.option("--overwrite", is_flag=True, help="Overwrite the original .java file with the .ast content")
