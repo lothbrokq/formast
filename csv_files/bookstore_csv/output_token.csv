@@ -1,0 +1,538 @@
+commit_hash,num_additions,num_deletions,filename
+c8876b959f65f3eedcc4b35700398d8aaece0452,21,0,src/main/java/com/bittercode/util/StoreUtil.java
+c8876b959f65f3eedcc4b35700398d8aaece0452,12,6,src/main/java/servlets/CartServlet.java
+c8876b959f65f3eedcc4b35700398d8aaece0452,65,49,src/main/java/servlets/ViewBookServlet.java
+673aaee97c59baaccc653a37e6989bd01297e78c,8,6,README.md
+29db0fdb898d8e9a67ba6d9d606f2e8e7bcf26b0,3,3,WebContent/Sample.html
+29db0fdb898d8e9a67ba6d9d606f2e8e7bcf26b0,8,0,WebContent/WEB-INF/web.xml
+29db0fdb898d8e9a67ba6d9d606f2e8e7bcf26b0,0,75,WebContent/about.html
+29db0fdb898d8e9a67ba6d9d606f2e8e7bcf26b0,1,0,WebContent/payment.html
+29db0fdb898d8e9a67ba6d9d606f2e8e7bcf26b0,224,211,src/main/java/com/bittercode/util/StoreUtil.java
+29db0fdb898d8e9a67ba6d9d606f2e8e7bcf26b0,200,0,src/main/java/servlets/AboutServlet.java
+29db0fdb898d8e9a67ba6d9d606f2e8e7bcf26b0,27,7,src/main/java/servlets/CartServlet.java
+29db0fdb898d8e9a67ba6d9d606f2e8e7bcf26b0,7,0,src/main/java/servlets/ProcessPaymentServlet.java
+29db0fdb898d8e9a67ba6d9d606f2e8e7bcf26b0,31,221,src/main/java/servlets/ViewBookServlet.java
+7e5833a5983388975b1fb26ec611a09807ba3c38,36,30,WebContent/Sample.html
+7e5833a5983388975b1fb26ec611a09807ba3c38,0,85,WebContent/ViewBooks.html
+7e5833a5983388975b1fb26ec611a09807ba3c38,41,22,WebContent/about.html
+7e5833a5983388975b1fb26ec611a09807ba3c38,1,38,WebContent/payment.html
+7e5833a5983388975b1fb26ec611a09807ba3c38,23,43,src/main/java/com/bittercode/service/impl/BookServiceImpl.java
+7e5833a5983388975b1fb26ec611a09807ba3c38,9,9,src/main/java/com/bittercode/service/impl/UserServiceImpl.java
+7e5833a5983388975b1fb26ec611a09807ba3c38,1,46,src/main/java/com/bittercode/{config => util}/DBUtil.java
+7e5833a5983388975b1fb26ec611a09807ba3c38,1,1,src/main/java/com/bittercode/{config => util}/DatabaseConfig.java
+7e5833a5983388975b1fb26ec611a09807ba3c38,361,0,src/main/java/com/bittercode/util/StoreUtil.java
+7e5833a5983388975b1fb26ec611a09807ba3c38,10,10,src/main/java/servlets/AddBookServlet.java
+7e5833a5983388975b1fb26ec611a09807ba3c38,20,11,src/main/java/servlets/BuyBooksServlet.java
+7e5833a5983388975b1fb26ec611a09807ba3c38,20,11,src/main/java/servlets/CartServlet.java
+7e5833a5983388975b1fb26ec611a09807ba3c38,26,32,src/main/java/servlets/CheckoutServlet.java
+7e5833a5983388975b1fb26ec611a09807ba3c38,10,0,src/main/java/servlets/LogoutServlet.java
+7e5833a5983388975b1fb26ec611a09807ba3c38,20,11,src/main/java/servlets/ProcessPaymentServlet.java
+7e5833a5983388975b1fb26ec611a09807ba3c38,20,11,src/main/java/servlets/ReceiptServlet.java
+7e5833a5983388975b1fb26ec611a09807ba3c38,10,10,src/main/java/servlets/RemoveBookServlet.java
+7e5833a5983388975b1fb26ec611a09807ba3c38,20,11,src/main/java/servlets/ViewBookServlet.java
+97ccb69cc4c2f730a5050b8d4d0f2c058089f51d,11,8,WebContent/Sample.html
+97ccb69cc4c2f730a5050b8d4d0f2c058089f51d,25,9,WebContent/ViewBooks.html
+97ccb69cc4c2f730a5050b8d4d0f2c058089f51d,8,0,WebContent/WEB-INF/web.xml
+97ccb69cc4c2f730a5050b8d4d0f2c058089f51d,84,72,WebContent/payment.html
+97ccb69cc4c2f730a5050b8d4d0f2c058089f51d,22,8,WebContent/receipt.html
+97ccb69cc4c2f730a5050b8d4d0f2c058089f51d,102,0,src/main/java/com/bittercode/model/Cart.java
+97ccb69cc4c2f730a5050b8d4d0f2c058089f51d,11,0,src/main/java/com/bittercode/service/BookService.java
+97ccb69cc4c2f730a5050b8d4d0f2c058089f51d,184,0,src/main/java/com/bittercode/service/impl/BookServiceImpl.java
+97ccb69cc4c2f730a5050b8d4d0f2c058089f51d,644,0,src/main/java/servlets/CartServlet.java
+97ccb69cc4c2f730a5050b8d4d0f2c058089f51d,20,274,src/main/java/servlets/CheckoutServlet.java
+97ccb69cc4c2f730a5050b8d4d0f2c058089f51d,158,232,src/main/java/servlets/ProcessPaymentServlet.java
+97ccb69cc4c2f730a5050b8d4d0f2c058089f51d,305,21,src/main/java/servlets/ViewBookServlet.java
+6d9f297e07979146698fda3e9a3a84acb16cf72d,4,4,WebContent/AddBook.html
+6d9f297e07979146698fda3e9a3a84acb16cf72d,1,1,WebContent/RemoveBooks.html
+6d9f297e07979146698fda3e9a3a84acb16cf72d,1,1,WebContent/Sample.html
+6d9f297e07979146698fda3e9a3a84acb16cf72d,7,6,WebContent/UserRegister.html
+6d9f297e07979146698fda3e9a3a84acb16cf72d,1,1,WebContent/ViewBooks.html
+6d9f297e07979146698fda3e9a3a84acb16cf72d,8,0,WebContent/WEB-INF/web.xml
+6d9f297e07979146698fda3e9a3a84acb16cf72d,1,1,WebContent/about.html
+6d9f297e07979146698fda3e9a3a84acb16cf72d,1,1,WebContent/payment.html
+6d9f297e07979146698fda3e9a3a84acb16cf72d,1,1,WebContent/receipt.html
+6d9f297e07979146698fda3e9a3a84acb16cf72d,55,6,src/main/java/{config/DBConnection.java => com/bittercode/config/DBUtil.java}
+6d9f297e07979146698fda3e9a3a84acb16cf72d,4,0,src/main/java/{ => com/bittercode}/config/DatabaseConfig.java
+6d9f297e07979146698fda3e9a3a84acb16cf72d,5,1,src/main/java/{constants => com/bittercode/constant}/BookStoreConstants.java
+6d9f297e07979146698fda3e9a3a84acb16cf72d,5,1,src/main/java/{constants => com/bittercode/constant}/db/BooksDBConstants.java
+6d9f297e07979146698fda3e9a3a84acb16cf72d,5,1,src/main/java/{constants => com/bittercode/constant}/db/UsersDBConstants.java
+6d9f297e07979146698fda3e9a3a84acb16cf72d,224,0,src/main/java/com/bittercode/model/Address.java
+6d9f297e07979146698fda3e9a3a84acb16cf72d,227,0,src/main/java/com/bittercode/model/Book.java
+6d9f297e07979146698fda3e9a3a84acb16cf72d,256,0,src/main/java/com/bittercode/model/User.java
+6d9f297e07979146698fda3e9a3a84acb16cf72d,15,0,src/main/java/com/bittercode/model/UserRole.java
+6d9f297e07979146698fda3e9a3a84acb16cf72d,14,0,src/main/java/com/bittercode/model/package-info.java
+6d9f297e07979146698fda3e9a3a84acb16cf72d,64,0,src/main/java/com/bittercode/service/BookService.java
+6d9f297e07979146698fda3e9a3a84acb16cf72d,86,0,src/main/java/com/bittercode/service/UserService.java
+6d9f297e07979146698fda3e9a3a84acb16cf72d,668,0,src/main/java/com/bittercode/service/impl/BookServiceImpl.java
+6d9f297e07979146698fda3e9a3a84acb16cf72d,650,0,src/main/java/com/bittercode/service/impl/UserServiceImpl.java
+6d9f297e07979146698fda3e9a3a84acb16cf72d,153,91,src/main/java/servlets/AddBookServlet.java
+6d9f297e07979146698fda3e9a3a84acb16cf72d,95,91,src/main/java/servlets/AdminLoginServlet.java
+6d9f297e07979146698fda3e9a3a84acb16cf72d,164,59,src/main/java/servlets/BuyBooksServlet.java
+6d9f297e07979146698fda3e9a3a84acb16cf72d,105,9,src/main/java/servlets/CheckoutServlet.java
+6d9f297e07979146698fda3e9a3a84acb16cf72d,234,0,src/main/java/servlets/LogoutServlet.java
+6d9f297e07979146698fda3e9a3a84acb16cf72d,131,14,src/main/java/servlets/ProcessPaymentServlet.java
+6d9f297e07979146698fda3e9a3a84acb16cf72d,167,119,src/main/java/servlets/ReceiptServlet.java
+6d9f297e07979146698fda3e9a3a84acb16cf72d,133,53,src/main/java/servlets/RemoveBookServlet.java
+6d9f297e07979146698fda3e9a3a84acb16cf72d,113,87,src/main/java/servlets/UserLoginServlet.java
+6d9f297e07979146698fda3e9a3a84acb16cf72d,157,100,src/main/java/servlets/UserRegisterServlet.java
+6d9f297e07979146698fda3e9a3a84acb16cf72d,133,108,src/main/java/servlets/ViewBookServlet.java
+677be7a363b79ce841a4097f1eb48fd470fa179c,1,1,README.md
+a2b51b92e09d0e2f1f709d4b3f7f015f82aa11f5,4,0,README.md
+0095d29e5f196469f3c35530477a7b009ad30519,9,7,WebContent/payment.html
+0095d29e5f196469f3c35530477a7b009ad30519,0,24,src/main/java/servlets/CheckoutServlet.java
+e38ddee07dbda816dcb2ce645f75545b81ea6746,58,131,WebContent/AddBook.html
+e38ddee07dbda816dcb2ce645f75545b81ea6746,57,109,WebContent/RemoveBooks.html
+e38ddee07dbda816dcb2ce645f75545b81ea6746,2,2,src/main/java/servlets/AddBookServlet.java
+e38ddee07dbda816dcb2ce645f75545b81ea6746,4,4,src/main/java/servlets/RemoveBookServlet.java
+e3d8b50c7727770671f6861b92c275c12ba997bc,3,0,WebContent/AddBook.html
+e3d8b50c7727770671f6861b92c275c12ba997bc,78,261,WebContent/AdminLogin.html
+e3d8b50c7727770671f6861b92c275c12ba997bc,3,1,WebContent/RemoveBooks.html
+e3d8b50c7727770671f6861b92c275c12ba997bc,52,93,WebContent/Sample.html
+e3d8b50c7727770671f6861b92c275c12ba997bc,61,251,WebContent/UserLogin.html
+e3d8b50c7727770671f6861b92c275c12ba997bc,94,299,WebContent/UserRegister.html
+e3d8b50c7727770671f6861b92c275c12ba997bc,53,203,WebContent/ViewBooks.html
+e3d8b50c7727770671f6861b92c275c12ba997bc,16,0,WebContent/WEB-INF/web.xml
+e3d8b50c7727770671f6861b92c275c12ba997bc,39,214,WebContent/about.html
+e3d8b50c7727770671f6861b92c275c12ba997bc,44,0,WebContent/header.html
+e3d8b50c7727770671f6861b92c275c12ba997bc,35,227,WebContent/index.html
+e3d8b50c7727770671f6861b92c275c12ba997bc,39,227,WebContent/login.html
+e3d8b50c7727770671f6861b92c275c12ba997bc,238,0,WebContent/payment.html
+e3d8b50c7727770671f6861b92c275c12ba997bc,71,0,WebContent/receipt.html
+e3d8b50c7727770671f6861b92c275c12ba997bc,80,0,WebContent/styles.css
+e3d8b50c7727770671f6861b92c275c12ba997bc,448,0,src/main/java/servlets/CheckoutServlet.java
+e3d8b50c7727770671f6861b92c275c12ba997bc,533,0,src/main/java/servlets/ProcessPaymentServlet.java
+e3d8b50c7727770671f6861b92c275c12ba997bc,10,35,src/main/java/servlets/UserLoginServlet.java
+e3d8b50c7727770671f6861b92c275c12ba997bc,210,78,src/main/java/servlets/ViewBookServlet.java
+e3d8b50c7727770671f6861b92c275c12ba997bc,1,1,src/main/resources/application.properties
+520b9b689b560693383adb47af3c24f9ecdb70f3,1,1,WebContent/AdminLogin.html
+520b9b689b560693383adb47af3c24f9ecdb70f3,1,1,WebContent/UserLogin.html
+520b9b689b560693383adb47af3c24f9ecdb70f3,1,1,WebContent/UserRegister.html
+520b9b689b560693383adb47af3c24f9ecdb70f3,2,10,WebContent/ViewBooks.html
+520b9b689b560693383adb47af3c24f9ecdb70f3,231,0,WebContent/about.html
+520b9b689b560693383adb47af3c24f9ecdb70f3,1,1,WebContent/index.html
+520b9b689b560693383adb47af3c24f9ecdb70f3,-,-,WebContent/loader.gif
+520b9b689b560693383adb47af3c24f9ecdb70f3,1,1,WebContent/login.html
+33d7b0f17732f4edcfd556ebc6cb204dd0d3e92f,2,2,README.md
+1a1f3fc805aece79f9514c0e8ff8dfdbf9737be2,3,0,README.md
+cc41ec5dff69b1d55c109a1b5e641c900b262155,1,63,WebContent/AdminLogin.html
+329a63c9c0deea86dfe7a5f22ecc617edfe39f63,178,1,WebContent/AdminLogin.html
+329a63c9c0deea86dfe7a5f22ecc617edfe39f63,145,120,WebContent/UserRegister.html
+329a63c9c0deea86dfe7a5f22ecc617edfe39f63,15,2,WebContent/login.html
+527dc987b16bdcd4224107e412e6bc0dc5d17ed3,4,2,README.md
+5270a1895ca3888c5f8361f1b68c20945c9593f1,7,3,WebContent/index.html
+5270a1895ca3888c5f8361f1b68c20945c9593f1,4,1,WebContent/login.html
+9c65343f7035554812f2811d72dc9c646d5ab0bb,8,1,WebContent/login.html
+41d6a106a6697c6d08f0ae811ed8ad584d9a335a,8,0,WebContent/index.html
+3dfc2ada7a2c45ea395b7c51782b7ac7246f7c69,8,0,WebContent/ViewBooks.html
+d3fb90128e3447102900f84adae4caf331048641,8,0,WebContent/UserRegister.html
+4f7d2b1024f8093f4d7d73c816245f1cb261e5e0,8,0,WebContent/UserLogin.html
+9411f9a5a9681cea9e4b420413cd9851fd0ec3f2,1,1,WebContent/index.html
+aa6203d49a557b5a5e19aee8f96c74b75bf8bec9,5,0,README.md
+f049596de0439406655329ec1ba1fec58c5e550d,6,6,README.md
+87001f3c9035e8c74676b9e9df67f6d1074744b2,15,9,README.md
+c0002ca786e992535f4b1f21ba9ccc5f98ae8f76,6,12,README.md
+8d4cf5fe32a008b67c70d4c2de614f2d98f48f9d,16,15,README.md
+6ffe3eb87ccc81651e1c3f2033457b42b6239ce4,24,1,README.md
+49176f115cddf894b99b3cb688e5f15c240dab0e,106,6,WebContent/ViewBooks.html
+931a86a36f8c77b43078af1978874efb1c53b9d7,104,16,WebContent/UserRegister.html
+f53c169b253a374d3f21083914dbd14084376a48,103,0,WebContent/UserLogin.html
+dc9059c5494a61df69452c7b14b66a9e472fe7c9,106,14,WebContent/login.html
+4922184c00a07f57b50c817ffc8a5f4f1a1b21af,1,17,.classpath
+4922184c00a07f57b50c817ffc8a5f4f1a1b21af,16,9,.settings/org.eclipse.wst.common.component
+4835fe0abaa28965ef6627715667558b47fef132,-,-,WebContent/logo.png
+268a269510478f8971adb4805c5a03c38f3c5b63,114,5,WebContent/index.html
+c7e0aa81a7a0078edba70b9eac505290d928b685,5,0,.classpath
+c7e0aa81a7a0078edba70b9eac505290d928b685,65,0,.github/ISSUE_TEMPLATE/bug_report.yml
+c7e0aa81a7a0078edba70b9eac505290d928b685,38,0,.github/ISSUE_TEMPLATE/feature_request.yml
+c7e0aa81a7a0078edba70b9eac505290d928b685,30,0,.github/pull_request_template.md
+c7e0aa81a7a0078edba70b9eac505290d928b685,46,0,CODE_OF_CONDUCT.md
+c7e0aa81a7a0078edba70b9eac505290d928b685,43,0,CONTRIBUTING.md
+c7e0aa81a7a0078edba70b9eac505290d928b685,21,6,Dummy_Database.md
+c7e0aa81a7a0078edba70b9eac505290d928b685,14,7,README.md
+c7e0aa81a7a0078edba70b9eac505290d928b685,104,12,WebContent/AddBook.html
+c7e0aa81a7a0078edba70b9eac505290d928b685,146,47,WebContent/AdminLogin.html
+c7e0aa81a7a0078edba70b9eac505290d928b685,0,1533,WebContent/Img/CSS Cheat Sheet.html
+c7e0aa81a7a0078edba70b9eac505290d928b685,0,9,WebContent/Img/CSS Cheat Sheet_files/AZ0-alD-GL0.html
+c7e0aa81a7a0078edba70b9eac505290d928b685,0,3,WebContent/Img/CSS Cheat Sheet_files/T7RR7T3eD2Mknuht0zvCjq8QpPtuwIS4RR0IBPt1mq4.js.download
+c7e0aa81a7a0078edba70b9eac505290d928b685,0,71,WebContent/Img/CSS Cheat Sheet_files/active-line.js.download
+c7e0aa81a7a0078edba70b9eac505290d928b685,0,1,WebContent/Img/CSS Cheat Sheet_files/ad_status.js.download
+c7e0aa81a7a0078edba70b9eac505290d928b685,0,101,WebContent/Img/CSS Cheat Sheet_files/analytics.js.download
+c7e0aa81a7a0078edba70b9eac505290d928b685,0,11229,WebContent/Img/CSS Cheat Sheet_files/base.js.download
+c7e0aa81a7a0078edba70b9eac505290d928b685,0,105,WebContent/Img/CSS Cheat Sheet_files/cast_sender.js(1).download
+c7e0aa81a7a0078edba70b9eac505290d928b685,0,12,WebContent/Img/CSS Cheat Sheet_files/cast_sender.js.download
+c7e0aa81a7a0078edba70b9eac505290d928b685,0,339,WebContent/Img/CSS Cheat Sheet_files/cheatsheet.css
+c7e0aa81a7a0078edba70b9eac505290d928b685,0,1,WebContent/Img/CSS Cheat Sheet_files/cheatsheet.js.download
+c7e0aa81a7a0078edba70b9eac505290d928b685,0,18,WebContent/Img/CSS Cheat Sheet_files/choice.js.download
+c7e0aa81a7a0078edba70b9eac505290d928b685,0,1,WebContent/Img/CSS Cheat Sheet_files/cmp2.js.download
+c7e0aa81a7a0078edba70b9eac505290d928b685,0,309,WebContent/Img/CSS Cheat Sheet_files/codemirror.css
+c7e0aa81a7a0078edba70b9eac505290d928b685,0,7831,WebContent/Img/CSS Cheat Sheet_files/codemirror.js.download
+c7e0aa81a7a0078edba70b9eac505290d928b685,0,0,WebContent/Img/CSS Cheat Sheet_files/content.min.css
+c7e0aa81a7a0078edba70b9eac505290d928b685,0,1265,WebContent/Img/CSS Cheat Sheet_files/css.css
+c7e0aa81a7a0078edba70b9eac505290d928b685,-,-,WebContent/Img/CSS Cheat Sheet_files/css.jpg
+c7e0aa81a7a0078edba70b9eac505290d928b685,0,1969,WebContent/Img/CSS Cheat Sheet_files/css.js(1).download
+c7e0aa81a7a0078edba70b9eac505290d928b685,0,717,WebContent/Img/CSS Cheat Sheet_files/css.js.download
+c7e0aa81a7a0078edba70b9eac505290d928b685,0,233,WebContent/Img/CSS Cheat Sheet_files/docs.css
+c7e0aa81a7a0078edba70b9eac505290d928b685,0,85,WebContent/Img/CSS Cheat Sheet_files/embed.js.download
+c7e0aa81a7a0078edba70b9eac505290d928b685,0,24,WebContent/Img/CSS Cheat Sheet_files/fetch-polyfill.js.download
+c7e0aa81a7a0078edba70b9eac505290d928b685,0,9789,WebContent/Img/CSS Cheat Sheet_files/jquery-1.10.2.js.download
+c7e0aa81a7a0078edba70b9eac505290d928b685,0,1178,WebContent/Img/CSS Cheat Sheet_files/jquery-ui.css
+c7e0aa81a7a0078edba70b9eac505290d928b685,0,15008,WebContent/Img/CSS Cheat Sheet_files/jquery-ui.js.download
+c7e0aa81a7a0078edba70b9eac505290d928b685,0,441,WebContent/Img/CSS Cheat Sheet_files/js
+c7e0aa81a7a0078edba70b9eac505290d928b685,0,10,WebContent/Img/CSS Cheat Sheet_files/jscolor.min.js.download
+c7e0aa81a7a0078edba70b9eac505290d928b685,-,-,WebContent/Img/CSS Cheat Sheet_files/logo-css.png
+c7e0aa81a7a0078edba70b9eac505290d928b685,0,66,WebContent/Img/CSS Cheat Sheet_files/matchtags.js.download
+c7e0aa81a7a0078edba70b9eac505290d928b685,0,2,WebContent/Img/CSS Cheat Sheet_files/quant.js.download
+c7e0aa81a7a0078edba70b9eac505290d928b685,0,728,WebContent/Img/CSS Cheat Sheet_files/remote.js.download
+c7e0aa81a7a0078edba70b9eac505290d928b685,0,5,WebContent/Img/CSS Cheat Sheet_files/rules-p-xncav4ssEzwLp.js.download
+c7e0aa81a7a0078edba70b9eac505290d928b685,0,3,WebContent/Img/CSS Cheat Sheet_files/saved_resource(1).html
+c7e0aa81a7a0078edba70b9eac505290d928b685,0,3,WebContent/Img/CSS Cheat Sheet_files/saved_resource(2).html
+c7e0aa81a7a0078edba70b9eac505290d928b685,0,7,WebContent/Img/CSS Cheat Sheet_files/saved_resource(3).html
+c7e0aa81a7a0078edba70b9eac505290d928b685,0,3,WebContent/Img/CSS Cheat Sheet_files/saved_resource(4).html
+c7e0aa81a7a0078edba70b9eac505290d928b685,0,3,WebContent/Img/CSS Cheat Sheet_files/saved_resource.html
+c7e0aa81a7a0078edba70b9eac505290d928b685,0,1,WebContent/Img/CSS Cheat Sheet_files/skin.min.css
+c7e0aa81a7a0078edba70b9eac505290d928b685,0,1,WebContent/Img/CSS Cheat Sheet_files/tinymce.gzip.js.download
+c7e0aa81a7a0078edba70b9eac505290d928b685,0,1748,WebContent/Img/CSS Cheat Sheet_files/www-embed-player.js.download
+c7e0aa81a7a0078edba70b9eac505290d928b685,0,1,WebContent/Img/CSS Cheat Sheet_files/www-player.css
+c7e0aa81a7a0078edba70b9eac505290d928b685,0,182,WebContent/Img/CSS Cheat Sheet_files/xml-fold.js.download
+c7e0aa81a7a0078edba70b9eac505290d928b685,0,384,WebContent/Img/CSS Cheat Sheet_files/xml.js.download
+c7e0aa81a7a0078edba70b9eac505290d928b685,-,-,WebContent/Img/background_book.jpg
+c7e0aa81a7a0078edba70b9eac505290d928b685,-,-,WebContent/Img/loding.gif
+c7e0aa81a7a0078edba70b9eac505290d928b685,129,35,WebContent/RemoveBooks.html
+c7e0aa81a7a0078edba70b9eac505290d928b685,104,46,WebContent/Sample.html
+c7e0aa81a7a0078edba70b9eac505290d928b685,0,127,WebContent/Style.css
+c7e0aa81a7a0078edba70b9eac505290d928b685,240,235,WebContent/UserLogin.html
+c7e0aa81a7a0078edba70b9eac505290d928b685,194,159,WebContent/UserRegister.html
+c7e0aa81a7a0078edba70b9eac505290d928b685,112,125,WebContent/ViewBooks.html
+c7e0aa81a7a0078edba70b9eac505290d928b685,130,55,WebContent/index.html
+c7e0aa81a7a0078edba70b9eac505290d928b685,141,62,WebContent/login.html
+a74580601c5adf87ec4e743c50e3be34c80fa936,0,20,.github/ISSUE_TEMPLATE/feature_request.md
+288ee2acbe37324e9bdcaf6d180059221e17e45e,0,38,.github/ISSUE_TEMPLATE/bug_report.md
+255e8bb8b609c1f21aa14a775a11537dcf246f75,38,0,.github/ISSUE_TEMPLATE/feature_request.yml
+2e7aff0f2b850009614a36bc10ef6029a9afc467,65,0,.github/ISSUE_TEMPLATE/bug_report.yml
+12a2f89072772157807edb2d5f900178aecdc68c,0,0,.github/{PULL_REQUEST_TEMPLATE .md => pull_request_template.md}
+b045d2940c0ca8b135137f7ab6f36b112525ee8b,18,18,.github/PULL_REQUEST_TEMPLATE .md
+e97852e01f6edeee7875b50145fe209890585e8b,30,0,.github/PULL_REQUEST_TEMPLATE .md
+244bb8dd1c5c2cfb4a548e36d74c1a954ce7d2f1,38,0,.github/ISSUE_TEMPLATE/bug_report.md
+244bb8dd1c5c2cfb4a548e36d74c1a954ce7d2f1,20,0,.github/ISSUE_TEMPLATE/feature_request.md
+3c50a190ae71d72c2627e9face8bcb966f04baf5,3,3,README.md
+fc9a0d53909a1f072245350311bb2616ae562337,5,5,Dummy_Database.md
+ba729bec87b3e12c21bfef91588c7c34fa66f8b9,2,2,WebContent/AddBook.html
+ba729bec87b3e12c21bfef91588c7c34fa66f8b9,1,1,WebContent/AdminLogin.html
+ba729bec87b3e12c21bfef91588c7c34fa66f8b9,1533,0,WebContent/Img/CSS Cheat Sheet.html
+ba729bec87b3e12c21bfef91588c7c34fa66f8b9,9,0,WebContent/Img/CSS Cheat Sheet_files/AZ0-alD-GL0.html
+ba729bec87b3e12c21bfef91588c7c34fa66f8b9,3,0,WebContent/Img/CSS Cheat Sheet_files/T7RR7T3eD2Mknuht0zvCjq8QpPtuwIS4RR0IBPt1mq4.js.download
+ba729bec87b3e12c21bfef91588c7c34fa66f8b9,71,0,WebContent/Img/CSS Cheat Sheet_files/active-line.js.download
+ba729bec87b3e12c21bfef91588c7c34fa66f8b9,1,0,WebContent/Img/CSS Cheat Sheet_files/ad_status.js.download
+ba729bec87b3e12c21bfef91588c7c34fa66f8b9,101,0,WebContent/Img/CSS Cheat Sheet_files/analytics.js.download
+ba729bec87b3e12c21bfef91588c7c34fa66f8b9,11229,0,WebContent/Img/CSS Cheat Sheet_files/base.js.download
+ba729bec87b3e12c21bfef91588c7c34fa66f8b9,105,0,WebContent/Img/CSS Cheat Sheet_files/cast_sender.js(1).download
+ba729bec87b3e12c21bfef91588c7c34fa66f8b9,12,0,WebContent/Img/CSS Cheat Sheet_files/cast_sender.js.download
+ba729bec87b3e12c21bfef91588c7c34fa66f8b9,339,0,WebContent/Img/CSS Cheat Sheet_files/cheatsheet.css
+ba729bec87b3e12c21bfef91588c7c34fa66f8b9,1,0,WebContent/Img/CSS Cheat Sheet_files/cheatsheet.js.download
+ba729bec87b3e12c21bfef91588c7c34fa66f8b9,18,0,WebContent/Img/CSS Cheat Sheet_files/choice.js.download
+ba729bec87b3e12c21bfef91588c7c34fa66f8b9,1,0,WebContent/Img/CSS Cheat Sheet_files/cmp2.js.download
+ba729bec87b3e12c21bfef91588c7c34fa66f8b9,309,0,WebContent/Img/CSS Cheat Sheet_files/codemirror.css
+ba729bec87b3e12c21bfef91588c7c34fa66f8b9,7831,0,WebContent/Img/CSS Cheat Sheet_files/codemirror.js.download
+ba729bec87b3e12c21bfef91588c7c34fa66f8b9,0,0,WebContent/Img/CSS Cheat Sheet_files/content.min.css
+ba729bec87b3e12c21bfef91588c7c34fa66f8b9,1265,0,WebContent/Img/CSS Cheat Sheet_files/css.css
+ba729bec87b3e12c21bfef91588c7c34fa66f8b9,-,-,WebContent/Img/CSS Cheat Sheet_files/css.jpg
+ba729bec87b3e12c21bfef91588c7c34fa66f8b9,1969,0,WebContent/Img/CSS Cheat Sheet_files/css.js(1).download
+ba729bec87b3e12c21bfef91588c7c34fa66f8b9,717,0,WebContent/Img/CSS Cheat Sheet_files/css.js.download
+ba729bec87b3e12c21bfef91588c7c34fa66f8b9,233,0,WebContent/Img/CSS Cheat Sheet_files/docs.css
+ba729bec87b3e12c21bfef91588c7c34fa66f8b9,85,0,WebContent/Img/CSS Cheat Sheet_files/embed.js.download
+ba729bec87b3e12c21bfef91588c7c34fa66f8b9,24,0,WebContent/Img/CSS Cheat Sheet_files/fetch-polyfill.js.download
+ba729bec87b3e12c21bfef91588c7c34fa66f8b9,9789,0,WebContent/Img/CSS Cheat Sheet_files/jquery-1.10.2.js.download
+ba729bec87b3e12c21bfef91588c7c34fa66f8b9,1178,0,WebContent/Img/CSS Cheat Sheet_files/jquery-ui.css
+ba729bec87b3e12c21bfef91588c7c34fa66f8b9,15008,0,WebContent/Img/CSS Cheat Sheet_files/jquery-ui.js.download
+ba729bec87b3e12c21bfef91588c7c34fa66f8b9,441,0,WebContent/Img/CSS Cheat Sheet_files/js
+ba729bec87b3e12c21bfef91588c7c34fa66f8b9,10,0,WebContent/Img/CSS Cheat Sheet_files/jscolor.min.js.download
+ba729bec87b3e12c21bfef91588c7c34fa66f8b9,-,-,WebContent/Img/CSS Cheat Sheet_files/logo-css.png
+ba729bec87b3e12c21bfef91588c7c34fa66f8b9,66,0,WebContent/Img/CSS Cheat Sheet_files/matchtags.js.download
+ba729bec87b3e12c21bfef91588c7c34fa66f8b9,2,0,WebContent/Img/CSS Cheat Sheet_files/quant.js.download
+ba729bec87b3e12c21bfef91588c7c34fa66f8b9,728,0,WebContent/Img/CSS Cheat Sheet_files/remote.js.download
+ba729bec87b3e12c21bfef91588c7c34fa66f8b9,5,0,WebContent/Img/CSS Cheat Sheet_files/rules-p-xncav4ssEzwLp.js.download
+ba729bec87b3e12c21bfef91588c7c34fa66f8b9,3,0,WebContent/Img/CSS Cheat Sheet_files/saved_resource(1).html
+ba729bec87b3e12c21bfef91588c7c34fa66f8b9,3,0,WebContent/Img/CSS Cheat Sheet_files/saved_resource(2).html
+ba729bec87b3e12c21bfef91588c7c34fa66f8b9,7,0,WebContent/Img/CSS Cheat Sheet_files/saved_resource(3).html
+ba729bec87b3e12c21bfef91588c7c34fa66f8b9,3,0,WebContent/Img/CSS Cheat Sheet_files/saved_resource(4).html
+ba729bec87b3e12c21bfef91588c7c34fa66f8b9,3,0,WebContent/Img/CSS Cheat Sheet_files/saved_resource.html
+ba729bec87b3e12c21bfef91588c7c34fa66f8b9,1,0,WebContent/Img/CSS Cheat Sheet_files/skin.min.css
+ba729bec87b3e12c21bfef91588c7c34fa66f8b9,1,0,WebContent/Img/CSS Cheat Sheet_files/tinymce.gzip.js.download
+ba729bec87b3e12c21bfef91588c7c34fa66f8b9,1748,0,WebContent/Img/CSS Cheat Sheet_files/www-embed-player.js.download
+ba729bec87b3e12c21bfef91588c7c34fa66f8b9,1,0,WebContent/Img/CSS Cheat Sheet_files/www-player.css
+ba729bec87b3e12c21bfef91588c7c34fa66f8b9,182,0,WebContent/Img/CSS Cheat Sheet_files/xml-fold.js.download
+ba729bec87b3e12c21bfef91588c7c34fa66f8b9,384,0,WebContent/Img/CSS Cheat Sheet_files/xml.js.download
+ba729bec87b3e12c21bfef91588c7c34fa66f8b9,2,2,WebContent/RemoveBooks.html
+ba729bec87b3e12c21bfef91588c7c34fa66f8b9,1,1,WebContent/UserLogin.html
+68ab64d77c523ea8fde2a405072fda28f7a0443f,3,2,README.md
+8f8f1cf1b55be17a7c0d20762a47016b5661c9e7,1,1,README.md
+130cd7c7321b1ace586e842561782e13d44877a2,1,1,README.md
+4e1bc85298356ccfd1f7f4311e7000a0daf4f3fd,2,2,README.md
+e39b91eb9584626b3da298b147d5bf82d0a33678,1,1,README.md
+65762e932d6571cc462a85e135af666b3be74cc9,0,1,README.md
+bd3f60759a88edf377984ab39a99b6ce91718c5b,1,1,README.md
+4d8c2ecc9445baf4b41f111dbf7e7696dff2dd3d,1,1,README.md
+0d79907061ff0c4f90bcb538e3e7da0b695f9772,20,44,README.md
+c6f7d3c3272859280c7db4918532c0e1d7d3c6cf,15,15,Dummy_Database.md
+c6f7d3c3272859280c7db4918532c0e1d7d3c6cf,2,2,README.md
+998064fc642792a5ab025e5832c7240c5fae05e3,8,8,WebContent/UserRegister.html
+66d522a555a662e546fe8393eabeab3dc288552f,3,3,WebContent/UserLogin.html
+dcb1611f23538297f76202f5739d3011365ba0b2,5,5,WebContent/AddBook.html
+dcb1611f23538297f76202f5739d3011365ba0b2,120,113,WebContent/AdminLogin.html
+dcb1611f23538297f76202f5739d3011365ba0b2,2,1,WebContent/RemoveBooks.html
+dcb1611f23538297f76202f5739d3011365ba0b2,2,2,WebContent/UserLogin.html
+dcb1611f23538297f76202f5739d3011365ba0b2,147,133,WebContent/UserRegister.html
+043b334bc699a9b5abfa96d466ca7c709319bb46,9,2,WebContent/AddBook.html
+043b334bc699a9b5abfa96d466ca7c709319bb46,41,34,WebContent/AdminLogin.html
+043b334bc699a9b5abfa96d466ca7c709319bb46,7,1,WebContent/RemoveBooks.html
+043b334bc699a9b5abfa96d466ca7c709319bb46,46,29,WebContent/Sample.html
+043b334bc699a9b5abfa96d466ca7c709319bb46,22,9,WebContent/Style.css
+043b334bc699a9b5abfa96d466ca7c709319bb46,264,237,WebContent/UserLogin.html
+043b334bc699a9b5abfa96d466ca7c709319bb46,166,142,WebContent/UserRegister.html
+043b334bc699a9b5abfa96d466ca7c709319bb46,131,110,WebContent/ViewBooks.html
+043b334bc699a9b5abfa96d466ca7c709319bb46,28,17,WebContent/login.html
+7db3699d00588cf3058717313dc08948f2979f89,1,1,CODE_OF_CONDUCT.md
+0b32035d175f06ff35f98e2e65a86d07313e707d,5,5,Dummy_Database.md
+fd828d85610659baf11d0fbbcd3c1303795b28f4,24,1,WebContent/AddBook.html
+fd828d85610659baf11d0fbbcd3c1303795b28f4,24,1,WebContent/AdminLogin.html
+fd828d85610659baf11d0fbbcd3c1303795b28f4,24,1,WebContent/RemoveBooks.html
+fd828d85610659baf11d0fbbcd3c1303795b28f4,24,1,WebContent/UserLogin.html
+fd828d85610659baf11d0fbbcd3c1303795b28f4,24,1,WebContent/UserRegister.html
+100fd1738256294689a4bef1d9957c8753353cc4,43,0,CONTRIBUTING.md
+a3850f94fb73d897988e8203a6d9dff6ed5ba8a8,46,0,CODE_OF_CONDUCT.md
+2cdce5ed664ed9a18233139a30e2093f9897b13e,5,0,.classpath
+2cdce5ed664ed9a18233139a30e2093f9897b13e,10,3,WebContent/AdminLogin.html
+2cdce5ed664ed9a18233139a30e2093f9897b13e,10,2,WebContent/UserLogin.html
+2cdce5ed664ed9a18233139a30e2093f9897b13e,18,3,WebContent/UserRegister.html
+333b3900ccef55ef1322f349e623ea26b2b85764,2,69,WebContent/AddBook.html
+333b3900ccef55ef1322f349e623ea26b2b85764,1,78,WebContent/AdminLogin.html
+333b3900ccef55ef1322f349e623ea26b2b85764,-,-,WebContent/Img/background_book.jpg
+333b3900ccef55ef1322f349e623ea26b2b85764,-,-,WebContent/Img/loding.gif
+333b3900ccef55ef1322f349e623ea26b2b85764,29,97,WebContent/RemoveBooks.html
+333b3900ccef55ef1322f349e623ea26b2b85764,2,69,WebContent/Sample.html
+333b3900ccef55ef1322f349e623ea26b2b85764,114,0,WebContent/Style.css
+333b3900ccef55ef1322f349e623ea26b2b85764,2,2,WebContent/UserRegister.html
+333b3900ccef55ef1322f349e623ea26b2b85764,1,1,WebContent/ViewBooks.html
+333b3900ccef55ef1322f349e623ea26b2b85764,55,121,WebContent/index.html
+333b3900ccef55ef1322f349e623ea26b2b85764,51,133,WebContent/login.html
+3f2655c9c35ac4f939013f147de9fd871d7a640d,19,5,Dummy_Database.md
+3f2655c9c35ac4f939013f147de9fd871d7a640d,12,5,README.md
+d08638661a7bda36efe7837caebe03e78ddb6da7,1,1,WebContent/UserRegister.html
+fc8cd6268be7d52df507e6e0166b0245d8bd87ed,1,1,README.md
+73f4de7a08ae7ffc10c9da744a5201b245b0044e,8,95,src/main/java/config/DBConnection.java
+73f4de7a08ae7ffc10c9da744a5201b245b0044e,122,14,src/main/java/config/DatabaseConfig.java
+73f4de7a08ae7ffc10c9da744a5201b245b0044e,6,6,src/main/resources/application.properties
+c05cda2bd46542cfda12ab4c7ba37d77ee1de1e2,16,7,.settings/org.eclipse.wst.common.component
+c05cda2bd46542cfda12ab4c7ba37d77ee1de1e2,60,52,WebContent/UserLogin.html
+3314bedccc22868974c5676a9dbded81150932a3,100,1,WebContent/UserLogin.html
+9436bd9b542f1ae5e645c4b851af81ded226fe66,0,18,src/main/java/config/DBConnection.java
+b7092e44f83bb2eb174857f486bb0fe704d65f91,112,8,src/main/java/config/DBConnection.java
+b7092e44f83bb2eb174857f486bb0fe704d65f91,6,0,src/main/resources/application.properties
+80f6b04961090e67f4dc03464eca0bc8efb546a6,17,1,.classpath
+80f6b04961090e67f4dc03464eca0bc8efb546a6,11,0,.project
+80f6b04961090e67f4dc03464eca0bc8efb546a6,565,0,.settings/org.eclipse.jdt.core.prefs
+80f6b04961090e67f4dc03464eca0bc8efb546a6,4,0,WebContent/AddBook.html
+80f6b04961090e67f4dc03464eca0bc8efb546a6,4,0,WebContent/AdminLogin.html
+80f6b04961090e67f4dc03464eca0bc8efb546a6,5,0,WebContent/Sample.html
+80f6b04961090e67f4dc03464eca0bc8efb546a6,4,0,WebContent/UserLogin.html
+80f6b04961090e67f4dc03464eca0bc8efb546a6,4,0,WebContent/UserRegister.html
+80f6b04961090e67f4dc03464eca0bc8efb546a6,4,0,WebContent/ViewBooks.html
+80f6b04961090e67f4dc03464eca0bc8efb546a6,-,-,WebContent/favicons/android-chrome-192x192.png
+80f6b04961090e67f4dc03464eca0bc8efb546a6,-,-,WebContent/favicons/android-chrome-512x512.png
+80f6b04961090e67f4dc03464eca0bc8efb546a6,-,-,WebContent/favicons/apple-touch-icon.png
+80f6b04961090e67f4dc03464eca0bc8efb546a6,-,-,WebContent/favicons/favicon-16x16.png
+80f6b04961090e67f4dc03464eca0bc8efb546a6,-,-,WebContent/favicons/favicon-32x32.png
+80f6b04961090e67f4dc03464eca0bc8efb546a6,-,-,WebContent/favicons/favicon.ico
+80f6b04961090e67f4dc03464eca0bc8efb546a6,1,0,WebContent/favicons/site.webmanifest
+80f6b04961090e67f4dc03464eca0bc8efb546a6,6,0,WebContent/index.html
+80f6b04961090e67f4dc03464eca0bc8efb546a6,5,0,WebContent/login.html
+46984f1878238924bd6f62b2a9692e231a3054e1,1,1,README.md
+e9dd46d0b18fcc607148145f9f9539eb255e2b02,2,0,README.md
+ddc221566401d57677572c4969dcca5312b9a1ca,2,2,WebContent/AdminLogin.html
+1f967134f5fc04c8ceb5a3f3192cd3c50d3ac2c8,5,3,README.md
+ec532ffd9c69a6372e85beb2c6c8f358f47599e1,4,4,README.md
+a1a466c1cfef688f9a115db1f4491706eba6fecb,1,1,README.md
+a2d43c49b170f88fa33aca59d60593e3d57b4e33,8,8,Dummy_Database.md
+a2d43c49b170f88fa33aca59d60593e3d57b4e33,3,3,setup/CreateDatastore.sql
+90c6abda2d11dd3809e9a65cc4ef3d7a52750b76,8,2,.classpath
+90c6abda2d11dd3809e9a65cc4ef3d7a52750b76,4,2,.gitignore
+90c6abda2d11dd3809e9a65cc4ef3d7a52750b76,14,8,.settings/org.eclipse.wst.common.component
+90c6abda2d11dd3809e9a65cc4ef3d7a52750b76,4,4,pom.xml
+90c6abda2d11dd3809e9a65cc4ef3d7a52750b76,15,13,src/main/java/{servlets => config}/DBConnection.java
+90c6abda2d11dd3809e9a65cc4ef3d7a52750b76,72,0,src/main/java/config/DatabaseConfig.java
+90c6abda2d11dd3809e9a65cc4ef3d7a52750b76,1,1,src/main/java/constants/{IOnlineBookStoreConstants.java => BookStoreConstants.java}
+90c6abda2d11dd3809e9a65cc4ef3d7a52750b76,0,40,src/main/java/constants/IDatabase.java
+90c6abda2d11dd3809e9a65cc4ef3d7a52750b76,4,2,src/main/java/{sql/IBookConstants.java => constants/db/BooksDBConstants.java}
+90c6abda2d11dd3809e9a65cc4ef3d7a52750b76,4,2,src/main/java/{sql/IUserContants.java => constants/db/UsersDBConstants.java}
+90c6abda2d11dd3809e9a65cc4ef3d7a52750b76,17,10,src/main/java/servlets/AddBookServlet.java
+90c6abda2d11dd3809e9a65cc4ef3d7a52750b76,17,10,src/main/java/servlets/AdminLoginServlet.java
+90c6abda2d11dd3809e9a65cc4ef3d7a52750b76,16,7,src/main/java/servlets/BuyBooksServlet.java
+90c6abda2d11dd3809e9a65cc4ef3d7a52750b76,20,13,src/main/java/servlets/ReceiptServlet.java
+90c6abda2d11dd3809e9a65cc4ef3d7a52750b76,11,4,src/main/java/servlets/RemoveBookServlet.java
+90c6abda2d11dd3809e9a65cc4ef3d7a52750b76,17,10,src/main/java/servlets/UserLoginServlet.java
+90c6abda2d11dd3809e9a65cc4ef3d7a52750b76,19,12,src/main/java/servlets/UserRegisterServlet.java
+90c6abda2d11dd3809e9a65cc4ef3d7a52750b76,11,4,src/main/java/servlets/ViewBookServlet.java
+3444560a7ab59f054acad44ebaee0af811369608,2,0,README.md
+9e3cdea1c3774aa16b0b72c17e3e2a7724441af8,2,2,README.md
+86aac8c7a57254ed02fc846ca71ebde70984aea1,1,1,.classpath
+86aac8c7a57254ed02fc846ca71ebde70984aea1,4,4,src/main/java/constants/IDatabase.java
+f3f3e599dc726ecd7aa13232406f5a705dc7a67f,1,0,Procfile
+6a6be67fe7551ebffbf9feec7c198ec77402de78,16,9,.settings/org.eclipse.wst.common.component
+6a6be67fe7551ebffbf9feec7c198ec77402de78,74,48,pom.xml
+6a6be67fe7551ebffbf9feec7c198ec77402de78,0,0,{OnlineBookStore => src/main/java}/constants/IDatabase.java
+6a6be67fe7551ebffbf9feec7c198ec77402de78,0,0,{OnlineBookStore => src/main/java}/constants/IOnlineBookStoreConstants.java
+6a6be67fe7551ebffbf9feec7c198ec77402de78,0,0,{OnlineBookStore => src/main/java}/servlets/AddBookServlet.java
+6a6be67fe7551ebffbf9feec7c198ec77402de78,0,0,{OnlineBookStore => src/main/java}/servlets/AdminLoginServlet.java
+6a6be67fe7551ebffbf9feec7c198ec77402de78,0,0,{OnlineBookStore => src/main/java}/servlets/BuyBooksServlet.java
+6a6be67fe7551ebffbf9feec7c198ec77402de78,0,0,{OnlineBookStore => src/main/java}/servlets/DBConnection.java
+6a6be67fe7551ebffbf9feec7c198ec77402de78,0,0,{OnlineBookStore => src/main/java}/servlets/ReceiptServlet.java
+6a6be67fe7551ebffbf9feec7c198ec77402de78,0,0,{OnlineBookStore => src/main/java}/servlets/RemoveBookServlet.java
+6a6be67fe7551ebffbf9feec7c198ec77402de78,0,0,{OnlineBookStore => src/main/java}/servlets/UserLoginServlet.java
+6a6be67fe7551ebffbf9feec7c198ec77402de78,0,0,{OnlineBookStore => src/main/java}/servlets/UserRegisterServlet.java
+6a6be67fe7551ebffbf9feec7c198ec77402de78,0,0,{OnlineBookStore => src/main/java}/servlets/ViewBookServlet.java
+6a6be67fe7551ebffbf9feec7c198ec77402de78,0,0,{OnlineBookStore => src/main/java}/sql/IBookConstants.java
+6a6be67fe7551ebffbf9feec7c198ec77402de78,0,0,{OnlineBookStore => src/main/java}/sql/IUserContants.java
+3c1209cee7240d5acd447f0d70a253d683d6c230,7,2,.classpath
+0fad2e9996b1ee52de93547ef7b42d4bbfb3c0ec,2,2,OnlineBookStore/servlets/ReceiptServlet.java
+0fad2e9996b1ee52de93547ef7b42d4bbfb3c0ec,1,5,WebContent/AddBook.html
+0fad2e9996b1ee52de93547ef7b42d4bbfb3c0ec,94,84,WebContent/AdminLogin.html
+0fad2e9996b1ee52de93547ef7b42d4bbfb3c0ec,1,5,WebContent/RemoveBooks.html
+0fad2e9996b1ee52de93547ef7b42d4bbfb3c0ec,2,5,WebContent/Sample.html
+0fad2e9996b1ee52de93547ef7b42d4bbfb3c0ec,93,83,WebContent/UserLogin.html
+0fad2e9996b1ee52de93547ef7b42d4bbfb3c0ec,102,90,WebContent/UserRegister.html
+0fad2e9996b1ee52de93547ef7b42d4bbfb3c0ec,0,8,WebContent/ViewBooks.html
+0fad2e9996b1ee52de93547ef7b42d4bbfb3c0ec,89,95,WebContent/index.html
+0fad2e9996b1ee52de93547ef7b42d4bbfb3c0ec,129,0,WebContent/login.html
+3a5cadaf42e27f81e3c608a81b2954bd9265408d,1,1,README.md
+1feb0b65deda5d706f3e0e6befe10a92a7550d63,1,1,pom.xml
+cdf92b5bf65afae6b3f445f68d979aa3af962ee5,1,1,pom.xml
+5633eb78ebb7442919599b93dc8e00661c1e1f69,11,0,Jenkinsfile
+f036dc8e6289ffdb49c352e6aaeb534a600d29c9,1,1,buildspec.yaml
+4be2707bc085bcbd3caf381dfa8bf7d3f49ca592,1,1,appspec.yaml
+f7cd01d3d1a329d1c39188dfc1e17782aeaddf2f,1,1,buildspec.yaml
+cc4ded93885ee12eabba4660ef0f98ae91425c8f,2,2,buildspec.yaml
+76ebfd87b30cb3ca1d655d72657ce31c4f93dfbb,1,1,buildspec.yaml
+bb848f04af51fd9dea0173941a5471a293269019,1,1,buildspec.yaml
+f4baa750a6f04682160e292e085dca39b3a6cfb0,1,1,buildspec.yaml
+9607d154cd655eb07bfae173f2cce44cdeec9258,4,3,buildspec.yaml
+b5d74a5058ea0ef3bff63f254d57f604c50879e0,2,3,appspec.yaml
+056cc37fdc6296586c0fbd3b479cf2290224e655,1,1,appspec.yaml
+3c6011ce326492b8a256fa3060efdf56b2ec4b34,3,0,scripts/start_server.sh
+3c6011ce326492b8a256fa3060efdf56b2ec4b34,3,0,scripts/stop_server.sh
+9ce59470c76e3c0b81682ffe7fc93162463704b1,15,0,appspec.yaml
+0126d6610a79406081e83eb47963f19e466397ac,17,0,buildspec.yaml
+a99dc6811b0df8b4833dd469213c124494112113,10,2,OnlineBookStore/servlets/UserRegisterServlet.java
+b46c18fca28241ed8751bafb72464cba0db5c93d,1,1,pom.xml
+6d97ecfaa26bc31c5143eb71a8c442c8aa241f54,1,1,pom.xml
+6d3b7d934e7467591e8ac450e3f2b9e3a08019ab,1,1,README.md
+922c8dfaaaa05ef5943d559fdaa90e111bed6021,1,0,README.md
+f5752e4a2100c9a9e84bd104f59f6f3fdbb0af5f,4,3,README.md
+c8df5efd3d417adfbaecc2ecdce0f283250bc78a,105,12,README.md
+2f587e54b4f14b8617b1e196df422d39bb110348,1,1,README.md
+d3274b4a28a26f6b3f189ef60b90e788be6eba3c,62,12,README.md
+58ed73630d9e775bad6160b9aba5390b5bce1b83,3,3,README.md
+522cca84719dfe65c9b0bfa9010fb2b9dc1a9b8c,3,1,README.md
+20c5b2248fec099d072a004a41bea6dc2bbb434c,28,28,README.md
+9da1bf8590869304548a9d58b8fda553f62f4681,1,1,pom.xml
+67614f92b94337fe9afed962f779b5b9d9a248c9,68,76,WebContent/WEB-INF/web.xml
+0002735e5fb4df5a94e799c2ee37fc2eaf4a22ba,17,17,.classpath
+0002735e5fb4df5a94e799c2ee37fc2eaf4a22ba,40,0,OnlineBookStore/constants/IDatabase.java
+0002735e5fb4df5a94e799c2ee37fc2eaf4a22ba,2,2,setup/CreateDatastore.sql
+0b7b5f428e4f05255f3e89ee13c7805e7381effd,5,0,README.md
+96fe880dbc28560bc0b00201fea88fd455e12360,1,2,Dummy_Database.md
+eccc2bafe472b5db9da91df47fcfce05d2eaa8c8,2,0,Dummy_Database => Dummy_Database.md
+ebc7a192dc2702bcf6d92d56e5dedb195a4ee953,27,0,Dummy_Database
+badc9adfbbf203abc1b9147191fea55e17729477,45,12,README.md
+c019ddd02d6a5fdf32128a900bc4062a6fba41d2,32,5,OnlineBookStore/servlets/ReceiptServlet.java
+c019ddd02d6a5fdf32128a900bc4062a6fba41d2,1,1,WebContent/RemoveBooks.html
+9a92e6f75686a564aae4632e5518d6a942cd0b58,1,1,OnlineBookStore/servlets/RemoveBookServlet.java
+9a92e6f75686a564aae4632e5518d6a942cd0b58,1,1,WebContent/RemoveBooks.html
+873bf59b46df636cf9a228455ce47bacbf98f566,29,0,OnlineBookStore/servlets/AdminLoginServlet.java
+873bf59b46df636cf9a228455ce47bacbf98f566,41,6,OnlineBookStore/servlets/DBConnection.java
+873bf59b46df636cf9a228455ce47bacbf98f566,1,1,WebContent/index.html
+873bf59b46df636cf9a228455ce47bacbf98f566,10,0,pom.xml
+6d0790cfa73049e6e99be7ccc7cff7ee2bda35c5,1,1,WebContent/UserLogin.html
+8bf99138fb408c0dd7a1a5943501e663a0b6869f,17,0,.classpath
+8bf99138fb408c0dd7a1a5943501e663a0b6869f,2,0,.gitignore
+8bf99138fb408c0dd7a1a5943501e663a0b6869f,37,0,.project
+8bf99138fb408c0dd7a1a5943501e663a0b6869f,12,0,.settings/.jsdtscope
+8bf99138fb408c0dd7a1a5943501e663a0b6869f,11,0,.settings/org.eclipse.jdt.core.prefs
+8bf99138fb408c0dd7a1a5943501e663a0b6869f,4,0,.settings/org.eclipse.m2e.core.prefs
+8bf99138fb408c0dd7a1a5943501e663a0b6869f,9,0,.settings/org.eclipse.wst.common.component
+8bf99138fb408c0dd7a1a5943501e663a0b6869f,7,0,.settings/org.eclipse.wst.common.project.facet.core.xml
+8bf99138fb408c0dd7a1a5943501e663a0b6869f,1,0,.settings/org.eclipse.wst.jsdt.ui.superType.container
+8bf99138fb408c0dd7a1a5943501e663a0b6869f,1,0,.settings/org.eclipse.wst.jsdt.ui.superType.name
+8bf99138fb408c0dd7a1a5943501e663a0b6869f,2,0,.settings/org.eclipse.wst.validation.prefs
+8bf99138fb408c0dd7a1a5943501e663a0b6869f,-,-,OnlineBookStore/WebContent/WEB-INF/lib/ojdbc5.jar
+8bf99138fb408c0dd7a1a5943501e663a0b6869f,0,78,OnlineBookStore/WebContent/WEB-INF/web.xml
+8bf99138fb408c0dd7a1a5943501e663a0b6869f,-,-,OnlineBookStore/build/classes/test/AddBookServlet.class
+8bf99138fb408c0dd7a1a5943501e663a0b6869f,-,-,OnlineBookStore/build/classes/test/AdminLoginServlet.class
+8bf99138fb408c0dd7a1a5943501e663a0b6869f,-,-,OnlineBookStore/build/classes/test/BuyBooksServlet.class
+8bf99138fb408c0dd7a1a5943501e663a0b6869f,-,-,OnlineBookStore/build/classes/test/DBConnection.class
+8bf99138fb408c0dd7a1a5943501e663a0b6869f,-,-,OnlineBookStore/build/classes/test/ReceiptServlet.class
+8bf99138fb408c0dd7a1a5943501e663a0b6869f,-,-,OnlineBookStore/build/classes/test/RemoveBookServlet.class
+8bf99138fb408c0dd7a1a5943501e663a0b6869f,-,-,OnlineBookStore/build/classes/test/UserLoginServlet.class
+8bf99138fb408c0dd7a1a5943501e663a0b6869f,-,-,OnlineBookStore/build/classes/test/UserRegisterServlet.class
+8bf99138fb408c0dd7a1a5943501e663a0b6869f,-,-,OnlineBookStore/build/classes/test/ViewBookServlet.class
+8bf99138fb408c0dd7a1a5943501e663a0b6869f,15,0,OnlineBookStore/constants/IOnlineBookStoreConstants.java
+8bf99138fb408c0dd7a1a5943501e663a0b6869f,80,15,OnlineBookStore/{src/test => servlets}/AddBookServlet.java
+8bf99138fb408c0dd7a1a5943501e663a0b6869f,45,10,OnlineBookStore/{src/test => servlets}/AdminLoginServlet.java
+8bf99138fb408c0dd7a1a5943501e663a0b6869f,24,8,OnlineBookStore/{src/test => servlets}/BuyBooksServlet.java
+8bf99138fb408c0dd7a1a5943501e663a0b6869f,5,5,OnlineBookStore/{src/test => servlets}/DBConnection.java
+8bf99138fb408c0dd7a1a5943501e663a0b6869f,53,14,OnlineBookStore/{src/test => servlets}/ReceiptServlet.java
+8bf99138fb408c0dd7a1a5943501e663a0b6869f,19,7,OnlineBookStore/{src/test => servlets}/RemoveBookServlet.java
+8bf99138fb408c0dd7a1a5943501e663a0b6869f,45,10,OnlineBookStore/{src/test => servlets}/UserLoginServlet.java
+8bf99138fb408c0dd7a1a5943501e663a0b6869f,45,22,OnlineBookStore/{src/test => servlets}/UserRegisterServlet.java
+8bf99138fb408c0dd7a1a5943501e663a0b6869f,16,21,OnlineBookStore/{src/test => servlets}/ViewBookServlet.java
+8bf99138fb408c0dd7a1a5943501e663a0b6869f,50,0,OnlineBookStore/sql/IBookConstants.java
+8bf99138fb408c0dd7a1a5943501e663a0b6869f,71,0,OnlineBookStore/sql/IUserContants.java
+8bf99138fb408c0dd7a1a5943501e663a0b6869f,5,5,{OnlineBookStore/WebContent => WebContent}/AddBook.html
+8bf99138fb408c0dd7a1a5943501e663a0b6869f,2,2,{OnlineBookStore/WebContent => WebContent}/AdminLogin.html
+8bf99138fb408c0dd7a1a5943501e663a0b6869f,0,0,{OnlineBookStore/WebContent => WebContent}/META-INF/MANIFEST.MF
+8bf99138fb408c0dd7a1a5943501e663a0b6869f,-,-,{OnlineBookStore/WebContent => WebContent}/Photo.jpg
+8bf99138fb408c0dd7a1a5943501e663a0b6869f,1,1,{OnlineBookStore/WebContent => WebContent}/RemoveBooks.html
+8bf99138fb408c0dd7a1a5943501e663a0b6869f,0,0,{OnlineBookStore/WebContent => WebContent}/Sample.html
+8bf99138fb408c0dd7a1a5943501e663a0b6869f,2,2,{OnlineBookStore/WebContent => WebContent}/UserLogin.html
+8bf99138fb408c0dd7a1a5943501e663a0b6869f,4,4,{OnlineBookStore/WebContent => WebContent}/UserRegister.html
+8bf99138fb408c0dd7a1a5943501e663a0b6869f,0,0,{OnlineBookStore/WebContent => WebContent}/ViewBooks.html
+8bf99138fb408c0dd7a1a5943501e663a0b6869f,78,0,WebContent/WEB-INF/web.xml
+8bf99138fb408c0dd7a1a5943501e663a0b6869f,0,0,{OnlineBookStore/WebContent => WebContent}/index.html
+8bf99138fb408c0dd7a1a5943501e663a0b6869f,39,0,pom.xml
+8bf99138fb408c0dd7a1a5943501e663a0b6869f,24,0,setup/CreateDatastore.sql
+7d866c4b30d7b7c8c31a347dcf57c7955ab1082b,1,1,README.md
+130f2baf932c7ea9c2885581b92b420091c7ce63,1,1,README.md
+ae9b5426c6c3da90531945dd539dee95f7a35cff,1,1,README.md
+1c0a15bde391be864031fabdfb0389a2d5e5d8df,15,5,README.md
+669b00f104ff7860b89c202e6cfea1ea6bbfaa1f,2,2,README.md
+813c11c6960aad54e731a5cbe56c8db9cbe3c7ba,2,1,README.md
+4297318ec6ef0c0c2fd3a8cdef927956b13c0dba,14,4,README.md
+566fe922671b6a1941400d381e63ce20c04d953a,125,0,OnlineBookStore/WebContent/AddBook.html
+566fe922671b6a1941400d381e63ce20c04d953a,119,0,OnlineBookStore/WebContent/AdminLogin.html
+566fe922671b6a1941400d381e63ce20c04d953a,3,0,OnlineBookStore/WebContent/META-INF/MANIFEST.MF
+566fe922671b6a1941400d381e63ce20c04d953a,-,-,OnlineBookStore/WebContent/Photo.jpg
+566fe922671b6a1941400d381e63ce20c04d953a,103,0,OnlineBookStore/WebContent/RemoveBooks.html
+566fe922671b6a1941400d381e63ce20c04d953a,96,0,OnlineBookStore/WebContent/Sample.html
+566fe922671b6a1941400d381e63ce20c04d953a,117,0,OnlineBookStore/WebContent/UserLogin.html
+566fe922671b6a1941400d381e63ce20c04d953a,127,0,OnlineBookStore/WebContent/UserRegister.html
+566fe922671b6a1941400d381e63ce20c04d953a,116,0,OnlineBookStore/WebContent/ViewBooks.html
+566fe922671b6a1941400d381e63ce20c04d953a,-,-,OnlineBookStore/WebContent/WEB-INF/lib/ojdbc5.jar
+566fe922671b6a1941400d381e63ce20c04d953a,78,0,OnlineBookStore/WebContent/WEB-INF/web.xml
+566fe922671b6a1941400d381e63ce20c04d953a,122,0,OnlineBookStore/WebContent/index.html
+566fe922671b6a1941400d381e63ce20c04d953a,-,-,OnlineBookStore/build/classes/test/AddBookServlet.class
+566fe922671b6a1941400d381e63ce20c04d953a,-,-,OnlineBookStore/build/classes/test/AdminLoginServlet.class
+566fe922671b6a1941400d381e63ce20c04d953a,-,-,OnlineBookStore/build/classes/test/BuyBooksServlet.class
+566fe922671b6a1941400d381e63ce20c04d953a,-,-,OnlineBookStore/build/classes/test/DBConnection.class
+566fe922671b6a1941400d381e63ce20c04d953a,-,-,OnlineBookStore/build/classes/test/ReceiptServlet.class
+566fe922671b6a1941400d381e63ce20c04d953a,-,-,OnlineBookStore/build/classes/test/RemoveBookServlet.class
+566fe922671b6a1941400d381e63ce20c04d953a,-,-,OnlineBookStore/build/classes/test/UserLoginServlet.class
+566fe922671b6a1941400d381e63ce20c04d953a,-,-,OnlineBookStore/build/classes/test/UserRegisterServlet.class
+566fe922671b6a1941400d381e63ce20c04d953a,-,-,OnlineBookStore/build/classes/test/ViewBookServlet.class
+566fe922671b6a1941400d381e63ce20c04d953a,280,0,OnlineBookStore/src/test/AddBookServlet.java
+566fe922671b6a1941400d381e63ce20c04d953a,236,0,OnlineBookStore/src/test/AdminLoginServlet.java
+566fe922671b6a1941400d381e63ce20c04d953a,366,0,OnlineBookStore/src/test/BuyBooksServlet.java
+566fe922671b6a1941400d381e63ce20c04d953a,79,0,OnlineBookStore/src/test/DBConnection.java
+566fe922671b6a1941400d381e63ce20c04d953a,450,0,OnlineBookStore/src/test/ReceiptServlet.java
+566fe922671b6a1941400d381e63ce20c04d953a,208,0,OnlineBookStore/src/test/RemoveBookServlet.java
+566fe922671b6a1941400d381e63ce20c04d953a,240,0,OnlineBookStore/src/test/UserLoginServlet.java
+566fe922671b6a1941400d381e63ce20c04d953a,313,0,OnlineBookStore/src/test/UserRegisterServlet.java
+566fe922671b6a1941400d381e63ce20c04d953a,302,0,OnlineBookStore/src/test/ViewBookServlet.java

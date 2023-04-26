@@ -1,7 +1,6 @@
 import csv
 import git
 import click
-#import getfile as gf
 from tqdm import tqdm
 
 @click.command()
@@ -21,7 +20,8 @@ def main(repo, output, ignore_all_space):
         for commit in tqdm(list(repo.iter_commits())):
             if len(parrent := commit.parents) != 1:
                 continue
-
+            
+            # Option to ignore-all-space
             diff = repo.git.diff(parrent, commit, numstat=True, ignore_all_space=ignore_all_space)
             for line in diff.splitlines():
                 num_additions, num_deletions, filename = line.split("\t")
