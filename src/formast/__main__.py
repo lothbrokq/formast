@@ -31,6 +31,7 @@ JAVA_LANGUAGE = Language(str(language_file), 'java')
 @click.option("--overwrite", is_flag=True, help="Overwrite the original .java file with the new content")
 @click.option("-v", "--verbose", count=True, help="Increase output verbosity")
 @click.argument("file_path", type=click.Path(exists=True))
+
 ## Formast 
 def formast(file_path, writetoken, writeast, writerelativeast, writecompast, overwrite, verbose):
 
