@@ -30,7 +30,8 @@ JAVA_LANGUAGE = Language(str(language_file), 'java')
 @click.option("--writecompast", is_flag=True, help="Write the new file with the compressed AST content and hashing")
 @click.option("--overwrite", is_flag=True, help="Overwrite the original .java file with the new content")
 @click.option("-v", "--verbose", count=True, help="Increase output verbosity")
-@click.argument("file_path", type=click.Path(exists=True))
+@click.argument("file_path", type=click.Path(exists=True)) # i stedet for file path, tag stdin og kør i batch mode
+
 
 ## Formast 
 def formast(file_path, writetoken, writeast, writerelativeast, writecompast, overwrite, verbose):
@@ -38,15 +39,15 @@ def formast(file_path, writetoken, writeast, writerelativeast, writecompast, ove
     # initialize logging
     logging.basicConfig(level=verbose)
 
-    log.info("Formast v0.1.0")
+    #log.info("Formast v0.1.0")
 
     # Load the language (assuming the language is created, if not run the commented code above)
     language_file = Path(__file__).absolute().parent.parent.parent / 'build' / 'my-languages.so'
-    log.debug("Using language file: %s", language_file)
+    #log.debug("Using language file: %s", language_file)
     JAVA_LANGUAGE = Language(str(language_file), 'java')
     parser = Parser()
     parser.set_language(JAVA_LANGUAGE)
-    log.info("Sucessfully created parser.")
+    #log.info("Sucessfully created parser.")
 
     log.info(f"Processing {file_path}...")
     
@@ -57,38 +58,38 @@ def formast(file_path, writetoken, writeast, writerelativeast, writecompast, ove
         save_tokenized_file(file_path, tree)
     # AST based
     elif writeast:
-        with open(file_path, "rb") as f:
+        with open(file_path, "rb", encoding='utf-8') as f:
             code = f.read()
         tree = parser.parse(code)
         ast_code = process_tree(tree, code)
-        with open(file_path+".ast", 'w') as f:
+        with open(file_path+".ast", 'w', encoding='utf-8') as f:
             f.write(ast_code)
     # Compressed AST based
     elif writecompast:
-        with open(file_path, "rb") as f:
+        with open(file_path, "rb", encoding='utf-8') as f:
             code = f.read()
         tree = parser.parse(code)
         ast_code = process_tree_comp(tree)
-        with open(file_path+".ast", 'w') as f:
+        with open(file_path+".ast", 'w', encoding='utf-8') as f:
             f.write(ast_code)
     # Relative AST based
     elif writerelativeast:
-        with open(file_path, "rb") as f:
+        with open(file_path, "rb", encoding='utf-8') as f:
             code = f.read()
         tree = parser.parse(code)
         ast_code = process_tree_relatively(tree, code)
-        with open(file_path+".ast", 'w') as f:
+        with open(file_path+".ast", 'w', encoding='utf-8') as f:
             f.write(ast_code)
 
 
     # If overwrite is true, overwrite the original .java file with the .ast content
     if overwrite:
-        with open(file_path+".ast", 'r') as ast_file:
+        with open(file_path+".ast", 'r', encoding='utf-8') as ast_file:
             ast_content = ast_file.read()
-        with open(file_path, 'w') as java_file:
+        with open(file_path, 'w', encoding='utf-8') as java_file:
             java_file.write(ast_content)
         os.remove(file_path+".ast")
-        #log.info("Original .java file overwritten with .ast content!")
+        log.info("Original .java file overwritten with .ast content!")
     else:
         log.info("AST file saved!")
 
@@ -213,27 +214,38 @@ def parse_java_file(parser, file_path):
     if not is_java_file(file_path):
         raise ValueError('File must have a .java extension')
     
-    with open(file_path, 'r') as f:
+    with open(file_path, 'r', encoding='utf-8') as f:
         src = f.read()
 
     tree_word = parser.parse(src.encode("utf8"))
+    #tree_word = parser.parse(src)
     
     return tree_word 
 
 
 ## Save AST file
+# def save_ast_file(file_path, tree):
+#     with open(file_path, 'r') as f:
+#         src = f.read()
+#     with open(file_path+".ast", 'w') as f:
+#         f.write(process_tree(tree, src))
+
 def save_ast_file(file_path, tree):
-    with open(file_path, 'r') as f:
-        src = f.read()
-    with open(file_path+".ast", 'w') as f:
-        f.write(process_tree(tree, src))
+    with open(file_path, 'rb', encoding='utf-8') as f:
+        src_bytes = f.read()
+    with open(file_path + ".ast", 'wb', encoding='utf-8') as f:
+        f.write(process_tree(tree, src_bytes).encode('utf-8'))
+
 
 ## Save tokenized file
 def save_tokenized_file(file_path, tree):
-    with open(file_path+".ast", 'w') as f:
+    with open(file_path+".ast",'w', encoding='utf-8') as f:
         for node in traverse(tree):
             if node.child_count == 0:
-                f.write(node.text.decode("utf8"))
+                try:
+                    f.write(node.text.decode('utf-8'))
+                except UnicodeDecodeError:
+                    continue
                 f.write("\n")
 
 ## Check if the file is a java file
