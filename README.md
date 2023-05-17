@@ -21,7 +21,7 @@ Remember to download tree-sitter-java and run the following command (uncomment i
          '../../vendor/tree-sitter-java'
      ]
  )
- ´´´
+```
 
 To see the available options:
 ```console
