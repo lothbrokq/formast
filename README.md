@@ -30,7 +30,7 @@ pdm run formast --help
 
 To run the executable:
 ```console
-pdm run python -m formast <args>
+pdm run formast <args> <file_path>
 ```
 
 
