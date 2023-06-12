@@ -10,6 +10,8 @@ from pathlib import Path
 log = logging.getLogger(__name__)
 
 ## Uncomment this block if you don't have the language file yet, first time running formast
+## Clone tree-sitter-java library to the following path: '../../vendor/tree-sitter-java'
+
 # Language.build_library(
 #     # Store the library in the `build` directory
 #     'build/my-languages.so',
@@ -19,8 +21,9 @@ log = logging.getLogger(__name__)
 #         '../../vendor/tree-sitter-java'
 #     ]
 # )
+# JAVA_LANGUAGE = Language('build/my-languages.so', 'java') 
 
-# Load the language (assuming the language is created, if not run the commented code above)
+# Load the language (assuming the language is created, if not run the commented code above and comment out the following two lines)
 language_file = Path(__file__).absolute().parent.parent.parent / 'build' / 'my-languages.so'
 JAVA_LANGUAGE = Language(str(language_file), 'java')
 

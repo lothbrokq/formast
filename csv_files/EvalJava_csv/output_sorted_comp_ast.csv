@@ -1,0 +1,9 @@
+commit_hash,num_additions,num_deletions,filename
+a7db9472de32d68abc6272f143ef0e47794abcbe,5,5,Main.java
+0bc38ef50d403a4b69c998fde77ee6d966177f24,15,5,Main.java
+e1ec2cbc1c9041cdb53c46982b68dbbc18044977,6,6,Main.java
+ed8c85cbf7669271ff71ee2eaa60da630ab8787a,3,3,Main.java
+2a8fd7f7e4822277f3ecf2fa42c2c5c4432f29ea,18,18,Main.java
+82a3068fb9f23c02a54bc04be911978acb5e2028,10,10,Main.java
+b8a7c7b44dafd58d0763fd7af4453fb3f970773f,4,4,Main.java
+029f5bea41b0b767287d27e404c0aedbd5ec2468,111,0,Main.java

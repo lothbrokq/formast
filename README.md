@@ -9,7 +9,7 @@ An AST formatting tool to run on java files, with different formatting options. 
 
 ## Develop
 
-Remember to download tree-sitter-java and run the following command (uncomment it in the __main__.py) to generate the language file, when you are running formastfor the first time.
+Remember to download tree-sitter-java and run the following command (uncomment it in the __main__.py) to generate the language file, when you are running formast for the first time.
 
 ```console
  Language.build_library(
